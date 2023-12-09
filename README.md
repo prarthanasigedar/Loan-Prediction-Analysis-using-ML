@@ -40,3 +40,7 @@ About columns (Information provided by the owner)
     from sklearn.metrics import accuracy_score, classification_report
     from sklearn.feature_selection import RFE
 
+# Data Pre-Processing
+
+   # Load the dataset
+   data = pd.read_csv('loan_approval_dataset.csv')
