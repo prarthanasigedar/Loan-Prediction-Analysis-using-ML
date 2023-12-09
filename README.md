@@ -61,60 +61,11 @@ The project aims to revolutionize and optimize the student loan approval process
 ---
 
 ## 📊 Data Visualization
-
-#### Model Evaluation Metrics
-
-To assess the performance of the developed predictive models, various metrics were employed, providing a nuanced understanding of their effectiveness in automating and enhancing the loan approval process. The following metrics were chosen for their relevance in the context of loan approval scenarios:
-
-F1 Score: The F1 score represents the harmonic mean of precision and recall, offering a balanced measure of a model's ability to make accurate positive predictions while correctly identifying actual positive cases. In scenarios like loan approval, where both precision and recall are crucial, the F1 score provides a comprehensive evaluation.
-
-Accuracy: Accuracy is a measure of the overall correctness of the model's predictions. High accuracy indicates that the model generally makes correct loan approval predictions.
-
-Precision: Precision is the ratio of correctly predicted positive observations to the total predicted positives. In the context of loan approval, it indicates how often the model correctly predicted "Approved" when it made a positive prediction.
-
-Recall: Recall is the ratio of correctly predicted positive observations to the all observations in actual class. In the context of loan approval, it indicates how well the model identifies loan applications that should be approved.
-
-| Model                   | F1 Score | Accuracy | Precision | Recall   |
-|-------------------------|----------|----------|-----------|----------|
-| Logistic Regression     | 91%      | 91.5%    | 88.42%    | 86.48%   |
-| Decision Trees          | 97.13%   | 97.47%   | 95.7%     | 95.5%    |
-| Random Forest Classifier| 97.29%   | 97.18%   | 97.48%    | 96.58%   |
-| Gradient Boost          | 98.18%   | 97.89%   | 98.125%   | 96.3%    |
-
-
-#### HyperParameter Tuning
-Hyperparameter tuning is a crucial step in optimizing the performance of machine learning models. It involves systematically searching the hyperparameter space to find the set of hyperparameters that result in the best model performance. The following details outline the hyperparameter tuning process for each algorithm:
-
-| **Model**               | **Before Tuning F1 Score** | **After Tuning F1 Score** | **Improvement** | **Hyperparameter Details**                                   |
-|-------------------------|-----------------------------|----------------------------|------------------|------------------------------------------------------------|
-| Logistic Regression     | 88%                         | 91%                        | 3%               | C = 0.1, Solver = 'lbfgs', Max Iterations = 100             |
-| Decision Trees          | 97.13%                      | 97.62%                     | 0.50%            | Max Depth = 10, Min Samples Split = 2, Min Samples Leaf = 1 |
-| Random Forest Classifier| 97.29%                      | 97.40%                     | 0.11%            | N Estimators = 100, Max Depth = 12, Min Samples Split = 2   |
-| Gradient Boost          | 97.40%                      | 98.18%                     | 0.94%            | Learning Rate = 0.1, N Estimators = 200, Max Depth = 5     |
-
-#### Confusion Metrix
-A confusion matrix is a valuable tool for understanding the performance of a classification model. It breaks down the model's predictions into four categories: true positive (TP), true negative (TN), false positive (FP), and false negative (FN).
-
-|                  | Predicted: No Approval | Predicted: Approval |
-|------------------|------------------------|----------------------|
-| Actual: No Approval | 261                   | 5                   |
-| Actual: Approval    | 3                   | 158                   |
-
-
-True Positive (TP): The model correctly identified 158 approved loan applications.
-True Negative (TN): The model correctly identified 261 denied loan applications.
-False Positive (FP): The model incorrectly predicted that 5 loan applications would be approved, but they were actually denied.
-False Negative (FN): The model incorrectly predicted that 3 loan applications would be denied, but they were actually approved.
-
 ...
 
 ---
 
-## 🌟 Conclusion
 
-The project successfully addresses inefficiencies in the student loan approval process through machine learning. The Gradient Boost model emerged as the top-performing model, achieving training and testing accuracies of 97.40% and 98.18%, respectively. The project holds significance not only in improving the loan approval process but also in positively impacting individuals seeking educational financing.
-
----
 
 ## 🛠️ Project Description
 
@@ -187,7 +138,11 @@ False Negative (FN): The model incorrectly predicted that 3 loan applications wo
 
 
 ---
+## 🌟 Conclusion
 
+The project successfully addresses inefficiencies in the student loan approval process through machine learning. The Gradient Boost model emerged as the top-performing model, achieving training and testing accuracies of 97.40% and 98.18%, respectively. The project holds significance not only in improving the loan approval process but also in positively impacting individuals seeking educational financing.
+
+---
 ## 🌐 [Live Demo](#) | 📄 [Download Full Report](#)
 
 ---
