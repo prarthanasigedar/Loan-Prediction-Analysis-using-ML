@@ -1,5 +1,5 @@
 # Loan-Prediction-Analysis-using-ML
-The aim of this project was to develop a predictive model for loan approval based on applicant characteristics. The focus is on determining the probability of loan approval using a broad set of features such as income, credit history, and employment status.
+The project aims to revolutionize and optimize the student loan approval process in the Indian banking sector through machine learning. By leveraging predictive models, the project seeks to objectively assess loan applications based on applicant characteristics, addressing inefficiencies, delays, and subjective decision-making.
 
 # About Dataset
 
@@ -39,18 +39,9 @@ About columns (Information provided by the owner)
     from xgboost import XGBClassifier
     from sklearn.metrics import accuracy_score, classification_report
     from sklearn.feature_selection import RFE
-
-# Predictive Model for Loan Approval Outcomes
-
-## Overview
-
-The project aims to revolutionize and optimize the student loan approval process in the Indian banking sector through machine learning. By leveraging predictive models, the project seeks to objectively assess loan applications based on applicant characteristics, addressing inefficiencies, delays, and subjective decision-making.
-
 ---
 
-## 🚀 Project Summary
-
-### Report Summary
+## 🚀 Abstract
 
 This project aims to address the inefficiencies in the student loan approval process within the Indian banking sector by harnessing machine learning techniques. The primary objective is to create predictive models capable of assessing loan applications based on applicant characteristics, thereby increasing efficiency, objectivity, and the speed of loan decisions.The process begins with data preparation, where the dataset is loaded, preprocessed,performed some visualization and statistical tests and then split into training and testing sets. Extensive data preprocessing and exploratory data analysis have been performed to understand the relationships between various features and loan approval outcomes. I have used different ML models, including Logistic Regression, Random Forest Classifier, Gradient Boost and Decision Trees. RFE estimator was used to select top 4 features for model development. After hyper tuning, Gradient Boost showed the most promising results with a training and testing accuracy of 98.13% and 97.4% respectively. The motivation stems from the inefficiencies in the current manual approach, and the project holds personal significance, grounded in a familial connection to the banking sector. Ultimately, the goal is to not only improve the loan approval process but also positively impact individuals seeking educational financing.
 
