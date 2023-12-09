@@ -52,11 +52,9 @@ The project aims to revolutionize and optimize the student loan approval process
 
 ### Report Summary
 
-...
+This project aims to address the inefficiencies in the student loan approval process within the Indian banking sector by harnessing machine learning techniques. The primary objective is to create predictive models capable of assessing loan applications based on applicant characteristics, thereby increasing efficiency, objectivity, and the speed of loan decisions.The process begins with data preparation, where the dataset is loaded, preprocessed,performed some visualization and statistical tests and then split into training and testing sets. Extensive data preprocessing and exploratory data analysis have been performed to understand the relationships between various features and loan approval outcomes. I have used different ML models, including Logistic Regression, Random Forest Classifier, Gradient Boost and Decision Trees. RFE estimator was used to select top 4 features for model development. After hyper tuning, Gradient Boost showed the most promising results with a training and testing accuracy of 98.13% and 97.4% respectively. The motivation stems from the inefficiencies in the current manual approach, and the project holds personal significance, grounded in a familial connection to the banking sector. Ultimately, the goal is to not only improve the loan approval process but also positively impact individuals seeking educational financing.
 
-### Motivation
 
-...
 
 ---
 
