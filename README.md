@@ -47,7 +47,7 @@ This project aims to address the inefficiencies in the student loan approval pro
 
 ---
 
-## 📊 Data Visualization
+# 📊 Data Visualization
 ...
 
 ---
