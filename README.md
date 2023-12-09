@@ -81,7 +81,28 @@ Recall: Recall is the ratio of correctly predicted positive observations to the 
 | Random Forest Classifier| 97.29%   | 97.18%   | 97.48%    | 96.58%   |
 | Gradient Boost          | 98.18%   | 97.89%   | 98.125%   | 96.3%    |
 
-#### Model Iteration
+
+#### HyperParameter Tuning
+Hyperparameter tuning is a crucial step in optimizing the performance of machine learning models. It involves systematically searching the hyperparameter space to find the set of hyperparameters that result in the best model performance. The following details outline the hyperparameter tuning process for each algorithm:
+
+| **Model**               | **Before Tuning F1 Score** | **After Tuning F1 Score** | **Improvement** | **Hyperparameter Details**                                   |
+|-------------------------|-----------------------------|----------------------------|------------------|------------------------------------------------------------|
+| Logistic Regression     | 88%                         | 91%                        | 3%               | C = 0.1, Solver = 'lbfgs', Max Iterations = 100             |
+| Decision Trees          | 97.13%                      | 97.62%                     | 0.50%            | Max Depth = 10, Min Samples Split = 2, Min Samples Leaf = 1 |
+| Random Forest Classifier| 97.29%                      | 97.40%                     | 0.11%            | N Estimators = 100, Max Depth = 12, Min Samples Split = 2   |
+| Gradient Boost          | 97.40%                      | 98.18%                     | 0.94%            | Learning Rate = 0.1, N Estimators = 200, Max Depth = 5     |
+
+#### Confusion Metrix
+A confusion matrix is a valuable tool for understanding the performance of a classification model. It breaks down the model's predictions into four categories: true positive (TP), true negative (TN), false positive (FP), and false negative (FN).
+
+                 Predicted: No Approval | Predicted: Approval
+Actual: No Approval          261                     3
+Actual: Approval            5                     158
+
+True Positive (TP): The model correctly identified 158 approved loan applications.
+True Negative (TN): The model correctly identified 261 denied loan applications.
+False Positive (FP): The model incorrectly predicted that 5 loan applications would be approved, but they were actually denied.
+False Negative (FN): The model incorrectly predicted that 3 loan applications would be denied, but they were actually approved.
 
 ...
 
