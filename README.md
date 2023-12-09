@@ -66,11 +66,11 @@ The project aims to revolutionize and optimize the student loan approval process
 
 To assess the performance of the developed predictive models, various metrics were employed, providing a nuanced understanding of their effectiveness in automating and enhancing the loan approval process. The following metrics were chosen for their relevance in the context of loan approval scenarios:
 
-    F1 Score: The F1 score represents the harmonic mean of precision and recall, offering a balanced measure of a model's ability to make accurate positive predictions while correctly identifying actual positive cases. In scenarios like loan approval, where both precision and recall are crucial, the F1 score provides a comprehensive evaluation.
+F1 Score: The F1 score represents the harmonic mean of precision and recall, offering a balanced measure of a model's ability to make accurate positive predictions while correctly identifying actual positive cases. In scenarios like loan approval, where both precision and recall are crucial, the F1 score provides a comprehensive evaluation.
 
-    Accuracy: Accuracy is a measure of the overall correctness of the model's predictions. High accuracy indicates that the model generally makes correct loan approval predictions.
+Accuracy: Accuracy is a measure of the overall correctness of the model's predictions. High accuracy indicates that the model generally makes correct loan approval predictions.
 
-    Precision: Precision is the ratio of correctly predicted positive observations to the total predicted positives. In the context of loan approval, it indicates how often the model correctly predicted "Approved" when it made a positive prediction.
+Precision: Precision is the ratio of correctly predicted positive observations to the total predicted positives. In the context of loan approval, it indicates how often the model correctly predicted "Approved" when it made a positive prediction.
 
 Recall: Recall is the ratio of correctly predicted positive observations to the all observations in actual class. In the context of loan approval, it indicates how well the model identifies loan applications that should be approved.
 
