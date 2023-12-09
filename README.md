@@ -135,10 +135,8 @@ If you'd like to contribute to this project, please follow these steps:
 
 For any inquiries or feedback, feel free to contact me:
 
-- **Email:** your.email@example.com
-- **LinkedIn:** [Your Name](https://www.linkedin.com/in/yourname/)
-- **Twitter:** [@yourtwitter](https://twitter.com/yourtwitter)
-
+- **Email:** prarthana.sigedar@gmail.com
+- **LinkedIn:** [Prarthana Sigedar](https://www.linkedin.com/in/psigedar/)
 ---
 
 ## 📝 License
