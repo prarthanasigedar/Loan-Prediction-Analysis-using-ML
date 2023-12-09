@@ -95,9 +95,11 @@ Hyperparameter tuning is a crucial step in optimizing the performance of machine
 #### Confusion Metrix
 A confusion matrix is a valuable tool for understanding the performance of a classification model. It breaks down the model's predictions into four categories: true positive (TP), true negative (TN), false positive (FP), and false negative (FN).
 
-                 Predicted: No Approval | Predicted: Approval
-Actual: No Approval          261                     3
-Actual: Approval            5                     158
+|                  | Predicted: No Approval | Predicted: Approval |
+|------------------|------------------------|----------------------|
+| Actual: No Approval | 261                   | 5                   |
+| Actual: Approval    | 3                   | 158                   |
+
 
 True Positive (TP): The model correctly identified 158 approved loan applications.
 True Negative (TN): The model correctly identified 261 denied loan applications.
