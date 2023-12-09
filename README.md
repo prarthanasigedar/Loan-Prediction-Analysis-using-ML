@@ -140,9 +140,8 @@ The project successfully addresses inefficiencies in the student loan approval p
 
 ### Model Development
 
-...
 
-### Performance Evaluation
+## Performance Evaluation
 
 To assess the performance of the developed predictive models, various metrics were employed, providing a nuanced understanding of their effectiveness in automating and enhancing the loan approval process. The following metrics were chosen for their relevance in the context of loan approval scenarios:
 
