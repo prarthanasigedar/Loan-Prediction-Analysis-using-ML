@@ -106,9 +106,34 @@ It seems that whether a loan gets approved or not doesnt really change a lot bas
     
 
 ### Model Development
+### Model Development
 
+The model development phase involved the exploration and implementation of various machine learning techniques to achieve the project's predictive objectives. Key steps in this process include:
 
-#### Performance Evaluation
+1. **Choice of Machine Learning Models:**
+   - Implemented four distinct machine learning models to assess their performance:
+     - Logistic Regression
+     - Decision Trees
+     - Random Forest Classifier
+     - Gradient Boost
+
+2. **Cross-Validation:**
+   - Employed k-fold cross-validation (k=5) to assess the models' robustness and generalization capabilities.
+   - Cross-validation helps ensure that the models perform consistently across different subsets of the dataset, providing insights into potential overfitting.
+
+3. **One-Hot Encoding:**
+   - Applied one-hot encoding to categorical variables in the dataset.
+   - This transformation is essential to convert categorical features into a format suitable for machine learning models that require numerical inputs.
+
+4. **Normalization:**
+   - Normalized numerical features to ensure consistent scales across the dataset.
+   - Techniques such as Min-Max scaling or standardization were applied to prevent features with larger magnitudes from dominating the modeling process.
+
+5. **Recursive Feature Elimination (RFE):**
+   - Utilized Recursive Feature Elimination to systematically select the most relevant features for model training.
+   - RFE helps enhance model efficiency by focusing on the most informative features while discarding less impactful ones.
+
+### Performance Evaluation
 
 To assess the performance of the developed predictive models, various metrics were employed, providing a nuanced understanding of their effectiveness in automating and enhancing the loan approval process. The following metrics were chosen for their relevance in the context of loan approval scenarios:
 
