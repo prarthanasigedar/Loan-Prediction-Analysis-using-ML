@@ -68,6 +68,12 @@ Utilized histograms to visualize the distribution of key applicant features, inc
 Identified the central tendencies and spread of each feature to gain insights into the dataset's characteristics.
 ![1](https://github.com/prarthanasigedar/Loan-Prediction-Analysis-using-ML/blob/main/1.png)
 
+##### Correlation Heatmap:
+
+Generated a heatmap to visualize the correlation matrix of numerical features.
+Identified strong correlations between certain features, providing insights into potential multicollinearity.
+![1](https://github.com/prarthanasigedar/Loan-Prediction-Analysis-using-ML/blob/main/4.png)
+
 
 
 ### Model Development
