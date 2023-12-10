@@ -47,15 +47,34 @@ This project aims to address the inefficiencies in the student loan approval pro
 
 ---
 
-# 📊 Data Visualization
-
-
----
 
 ## 📈 Methods
 
 ### Data Preparation
+#### Loading the Dataset:
 
+    The dataset was obtained from [source link] and consists of [number of data points] records.
+    Loaded the dataset into a Pandas DataFrame for ease of manipulation and analysis.
+
+#### Handling Missing Data:
+
+    Conducted an initial assessment of missing values in the dataset.
+    Implemented strategies such as imputation or removal of missing values, ensuring data integrity.
+
+#### Encoding Categorical Variables:
+
+    Identified categorical variables in the dataset.
+    Applied one-hot encoding to convert categorical variables into numerical format, facilitating model training.
+
+#### Normalizing Numerical Features:
+
+    Investigated the distribution and scale of numerical features.
+    Utilized techniques like Min-Max scaling or standardization to normalize numerical features, ensuring consistent ranges.
+
+#### Splitting the Dataset:
+
+    Segregated the dataset into training and testing sets using an 80-20 split ratio.
+    The training set was used for model training, while the testing set served as unseen data for model evaluation.
 ...
 
 ### 📊 Data Visualization
