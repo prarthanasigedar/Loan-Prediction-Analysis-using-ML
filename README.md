@@ -78,7 +78,13 @@ Identified strong correlations between certain features, providing insights into
 
 Explored seasonality or trends that may impact loan approval outcomes
 ![2](https://github.com/prarthanasigedar/Loan-Prediction-Analysis-using-ML/blob/main/2.png)
+
+The analysis suggests that shorter loan terms might be associated with higher approval rates.Moreover, loans with 6 and 8 months are potential favorable options due to balanced approval and rejection ratios.When it comes to longer terms, while it offers extended repayment periods, it has more elevated rejection percentages.However, this conclusion can be explored with more analysis.
+
 ![3](https://github.com/prarthanasigedar/Loan-Prediction-Analysis-using-ML/blob/main/3.png)
+
+It seems that whether a loan gets approved or not doesnt really change a lot based on how many dependents someone has. The numbers stay pretty much the same for both approved and rejected loans, no matter if there are few or many dependents.
+
     
 
 ### Model Development
