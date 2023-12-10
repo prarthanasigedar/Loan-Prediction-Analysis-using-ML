@@ -105,7 +105,8 @@ The analysis suggests that shorter loan terms might be associated with higher ap
 It seems that whether a loan gets approved or not doesnt really change a lot based on how many dependents someone has. The numbers stay pretty much the same for both approved and rejected loans, no matter if there are few or many dependents.
     
 
-### Model Development
+🛠️🧠💡
+# Model Development
 
 The model development phase involved the exploration and implementation of various machine learning techniques to achieve the project's predictive objectives. Key steps in this process include:
 
