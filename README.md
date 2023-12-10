@@ -48,9 +48,9 @@ This project aims to address the inefficiencies in the student loan approval pro
 ---
 
 
-## 📈 Methods
+# 📈 Methods
 
-### Data Preparation
+## Data Preparation
 #### Loading the Dataset:
 
 The dataset was obtained from [source link] and consists of [number of data points] records.
