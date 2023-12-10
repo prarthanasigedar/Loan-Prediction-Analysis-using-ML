@@ -74,6 +74,13 @@ Generated a heatmap to visualize the correlation matrix of numerical features.
 Identified strong correlations between certain features, providing insights into potential multicollinearity.
 ![1](https://github.com/prarthanasigedar/Loan-Prediction-Analysis-using-ML/blob/main/4.png)
 
+##### Loan Approval Trends :
+
+    Explored seasonality or trends that may impact loan approval outcomes
+    ![2](https://github.com/prarthanasigedar/Loan-Prediction-Analysis-using-ML/blob/main/2.png)
+    ![3](https://github.com/prarthanasigedar/Loan-Prediction-Analysis-using-ML/blob/main/3.png)
+    
+
 
 
 ### Model Development
