@@ -48,7 +48,7 @@ This project aims to address the inefficiencies in the student loan approval pro
 ---
 
 # 📊 Data Visualization
-...
+
 
 ---
 
@@ -58,9 +58,14 @@ This project aims to address the inefficiencies in the student loan approval pro
 
 ...
 
-### Exploratory Data Analysis (EDA)
+### 📊 Data Visualization
 
-...
+Exploratory Data Analysis (EDA) involved a comprehensive set of visualizations to understand the distribution, relationships, and patterns within the dataset. The following visualizations highlight key aspects of the data:
+
+####  Distribution of Applicant Features:
+
+    Utilized histograms to visualize the distribution of key applicant features, including credit score, annual income, loan amount, and loan term.
+    Identified the central tendencies and spread of each feature to gain insights into the dataset's characteristics.
 
 ### Model Development
 
