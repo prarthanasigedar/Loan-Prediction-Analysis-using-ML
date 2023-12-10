@@ -105,7 +105,7 @@ The analysis suggests that shorter loan terms might be associated with higher ap
 It seems that whether a loan gets approved or not doesnt really change a lot based on how many dependents someone has. The numbers stay pretty much the same for both approved and rejected loans, no matter if there are few or many dependents.
     
 
-# 🛠️🧠💡 Model Development
+## 🛠️🧠💡 Model Development
 
 The model development phase involved the exploration and implementation of various machine learning techniques to achieve the project's predictive objectives. Key steps in this process include:
 
@@ -132,7 +132,7 @@ The model development phase involved the exploration and implementation of vario
    - Utilized Recursive Feature Elimination to systematically select the most relevant features for model training.
    - RFE helps enhance model efficiency by focusing on the most informative features while discarding less impactful ones.
 
-# 📊📈📉 Performance Evaluation
+## 📊📈📉 Performance Evaluation
 
 To assess the performance of the developed predictive models, various metrics were employed, providing a nuanced understanding of their effectiveness in automating and enhancing the loan approval process. The following metrics were chosen for their relevance in the context of loan approval scenarios:
 
