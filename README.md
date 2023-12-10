@@ -77,7 +77,7 @@ Segregated the dataset into training and testing sets using an 80-20 split ratio
 The training set was used for model training, while the testing set served as unseen data for model evaluation.
 ...
 
-### 📊 Data Visualization
+## 📊 Data Visualization
 
 Exploratory Data Analysis (EDA) involved a comprehensive set of visualizations to understand the distribution, relationships, and patterns within the dataset. The following visualizations highlight key aspects of the data:
 
@@ -105,7 +105,6 @@ The analysis suggests that shorter loan terms might be associated with higher ap
 It seems that whether a loan gets approved or not doesnt really change a lot based on how many dependents someone has. The numbers stay pretty much the same for both approved and rejected loans, no matter if there are few or many dependents.
     
 
-### Model Development
 ### Model Development
 
 The model development phase involved the exploration and implementation of various machine learning techniques to achieve the project's predictive objectives. Key steps in this process include:
