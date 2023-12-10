@@ -178,7 +178,7 @@ False Negative (FN): The model incorrectly predicted that 3 loan applications wo
 
 
 ---
-## 🌟 Conclusion
+# 🌟 Conclusion
 
 The project successfully addresses inefficiencies in the student loan approval process through machine learning. The Gradient Boost model emerged as the top-performing model, achieving training and testing accuracies of 97.40% and 98.18%, respectively. The project holds significance not only in improving the loan approval process but also in positively impacting individuals seeking educational financing.
 
