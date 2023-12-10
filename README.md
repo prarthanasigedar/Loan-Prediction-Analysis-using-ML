@@ -66,6 +66,8 @@ Exploratory Data Analysis (EDA) involved a comprehensive set of visualizations t
 
 Utilized histograms to visualize the distribution of key applicant features, including credit score, annual income, loan amount, and loan term.
 Identified the central tendencies and spread of each feature to gain insights into the dataset's characteristics.
+![1](Image URL)
+
 
 
 ### Model Development
