@@ -77,11 +77,9 @@ Identified strong correlations between certain features, providing insights into
 ##### Loan Approval Trends :
 
     Explored seasonality or trends that may impact loan approval outcomes
-    ![2](https://github.com/prarthanasigedar/Loan-Prediction-Analysis-using-ML/blob/main/2.png)
-    ![3](https://github.com/prarthanasigedar/Loan-Prediction-Analysis-using-ML/blob/main/3.png)
+    ![1](https://github.com/prarthanasigedar/Loan-Prediction-Analysis-using-ML/blob/main/2.png)
+    ![1](https://github.com/prarthanasigedar/Loan-Prediction-Analysis-using-ML/blob/main/3.png)
     
-
-
 
 ### Model Development
 
